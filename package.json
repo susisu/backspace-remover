@@ -1,0 +1,30 @@
+{
+  "name": "backspace-remover",
+  "version": "0.0.1",
+  "description": "Removes backspace characters on save",
+  "keywords": [
+    "backspace"
+  ],
+  "repository": "https://github.com/susisu/backspace-remover",
+  "author": "Susisu <susisu2413@yahoo.co.jp>",
+  "license": "MIT",
+  "main": "lib/main.js",
+  "scripts": {
+    "lint": "eslint lib",
+    "fix": "eslint lib --fix"
+  },
+  "engines": {
+    "atom": ">=1.22.0 <2.0.0"
+  },
+  "activationCommands": {},
+  "configSchema": {
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.6.0"
+  }
+}
